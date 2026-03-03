@@ -1,8 +1,5 @@
-export default async function Home() {
+import Home from "@/app/features/home/components/Home";
 
-  return (
-    <div className="flex min-h-screen items-center justify-center">
-      Hello World
-    </div>
-  );
+export default function App() {
+  return <Home />;
 }
