@@ -128,3 +128,7 @@
         cursor: pointer;
     }
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: "hidden";
+}

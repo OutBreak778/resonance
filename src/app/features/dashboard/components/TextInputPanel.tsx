@@ -6,9 +6,8 @@ import { Coins } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
+import { COST_PER_UNIT, TEXT_MAX_LENGTH } from "../../text-to-speech/data/constants";
 
-export const TEXT_MAX_LENGTH = 5000;
-export const COST_PER_UNIT = 0.0006;
 
 export function TextInputPanel() {
   const [text, setText] = useState("");

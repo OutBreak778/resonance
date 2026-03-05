@@ -20,7 +20,7 @@ export function DashboardHeader() {
         </h1>
       </div>
 
-      <div className="lg:flex items-center gap-3 hidden">
+      {/* <div className="lg:flex items-center gap-3 hidden">
         <Button variant="outline" size="sm" asChild>
           <Link href="mailto:nikhil.mishra.personal@gmail.com">
             <ThumbsUp />
@@ -33,7 +33,7 @@ export function DashboardHeader() {
             <span className="hidden lg:block">Need help?</span>
           </Link>
         </Button>
-      </div>
+      </div> */}
 
       
     </div>

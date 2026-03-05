@@ -14,7 +14,6 @@ export default async function DashboardLayout({
       <DashboardSidebar />
       <SidebarInset className="min-h-0 min-w-0">
         <main className="flex min-h-0 flex-1 flex-col">
-          <SidebarTrigger className="hidden md:block pl-1.5 m-1 rounded-sm items-center justify-center hover:bg-none" />
           {children}
         </main>
       </SidebarInset>
